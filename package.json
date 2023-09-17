@@ -2,7 +2,6 @@
   "name": "iceberg-autocomplete",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "effector": "^22.8.6",
+    "effector-react": "^22.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

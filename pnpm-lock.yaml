@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  effector:
+    specifier: ^22.8.6
+    version: 22.8.6
+  effector-react:
+    specifier: ^22.5.4
+    version: 22.5.4(effector@22.8.6)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -935,6 +941,23 @@ packages:
       esutils: 2.0.3
     dev: true
 
+  /effector-react@22.5.4(effector@22.8.6)(react@18.2.0):
+    resolution: {integrity: sha512-7HmtfD/vqmqvGnu6jMojmns9cxIW45JPBkGgHrwvbXGpbm0bz2fmVj6PIttv+Bamfmrf9FAy2bZhs+Rwj+3Mxw==}
+    engines: {node: '>=11.0.0'}
+    peerDependencies:
+      effector: ^22.0.2
+      react: '>=16.8.0 <19.0.0'
+    dependencies:
+      effector: 22.8.6
+      react: 18.2.0
+      use-sync-external-store: 1.2.0(react@18.2.0)
+    dev: false
+
+  /effector@22.8.6:
+    resolution: {integrity: sha512-Bkg/rlPs7J4dmOFGPLLcL7X0SZeA8WdRnyC2X4tGVo7i6M8oxYwtNOkEUact/zIT/MgqTGm9A8T40dPnr8oXmA==}
+    engines: {node: '>=11.0.0'}
+    dev: false
+
   /electron-to-chromium@1.4.523:
     resolution: {integrity: sha512-9AreocSUWnzNtvLcbpng6N+GkXnCcBR80IQkxRC9Dfdyg4gaWNUPBujAHUpKkiUkoSoR9UlhA4zD/IgBklmhzg==}
     dev: true
@@ -1678,6 +1701,14 @@ packages:
     dependencies:
       punycode: 2.3.0
     dev: true
+
+  /use-sync-external-store@1.2.0(react@18.2.0):
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /vite@4.4.9:
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
